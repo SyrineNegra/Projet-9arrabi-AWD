@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Projet-9arrabi-AWD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/microservices/catalogue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/microservices/commande" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/microservices/dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/microservices/localisation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/microservices/profil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/microservices/reservation" vcs="Git" />
+  </component>
+</project>
