@@ -5,7 +5,7 @@
 ## Services
 
 | Service | Description | Membre |
-|---|---|
+|---|---|---|
 | Profil | Comptes, authentification et profils des clients et prestataires | Mariem |
 | Catalogue | Publication et consultation des produits et services | Syrine |
 | Localisation | Adresses et recherche d'offres à proximité | Ahmed |
