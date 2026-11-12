@@ -16,7 +16,7 @@
 
 ## Architecture
 
-![Architecture](documentation/architecture9arrabi.png)
+![Architecture](documentation/diagrams/architecture9arrabi.png)
 
 ## Technologies
 
