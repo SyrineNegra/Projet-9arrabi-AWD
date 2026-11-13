@@ -4,15 +4,15 @@
 
 ## Services
 
-| Service | Description | Membre |
-|---|---|---|
-| Profil | Comptes, authentification et profils des clients et prestataires | Mariem |
-| Catalogue | Publication et consultation des produits et services | Syrine |
-| Localisation | Adresses et recherche d'offres à proximité | Ahmed |
-| Avis | Notes et commentaires après une commande ou une prestation | Mahdi |
-| Commande | Achats, paiement et suivi des commandes | Nesrine |
-| Réservation | Créneaux et réservations des services | Eya |
-| Dashboard | Statistiques en lecture seule pour prestataires et administrateur | Tous |
+| Service      | Description                                                               | Membre |
+|--------------|---------------------------------------------------------------------------|---|
+| Prestation   | Publication et consultation des services et offerte des devis             | Mariem |
+| Produit      | Publication et consultation des produits et les commander                 | Syrine |
+| Localisation | Adresses et recherche d'offres à proximité                                | Ahmed |
+| Promotion    | Création des promotions et codes promo pour les services et les produits. | Mahdi |
+| Evenement    | Publication, consultation et participation à des événements.              | Nesrine |
+| Réservation  | Créneaux et réservations des services                                     | Eya |
+| Forum        | Espace d'échange pour les utilisateurs.                                   | Tous |
 
 ## Architecture
 
