@@ -2,13 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="produit" />
       </profile>
-      <profile name="Annotation profile for reservation" enabled="true">
+      <profile name="Annotation profile for produit" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -16,11 +16,12 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
         </processorPath>
         <module name="forum" />
+        <module name="produit" />
+        <module name="localisation" />
         <module name="reservation" />
         <module name="prestation" />
         <module name="evenement" />
         <module name="promotion" />
-        <module name="localisation" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +31,7 @@
       <module name="forum" options="-parameters" />
       <module name="localisation" options="-parameters" />
       <module name="prestation" options="-parameters" />
+      <module name="produit" options="-parameters" />
       <module name="promotion" options="-parameters" />
       <module name="reservation" options="-parameters" />
     </option>

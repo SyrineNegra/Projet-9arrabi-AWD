@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/backend/microservices/forum/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/microservices/localisation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/microservices/prestation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/microservices/produit/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/microservices/promotion/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/microservices/reservation/src/main/java" charset="UTF-8" />
   </component>
