@@ -1,9 +1,11 @@
 package tn.esprit.spring.produit.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -19,14 +21,14 @@ public class Commande
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private Date Date;
+    private LocalDate date;
     @Column(nullable = false, length = 20)
-    private String Status;
+    private String status;
     @Column(nullable = false)
     private float total;
     @Column(nullable = false)
     private float fraisLivraison;
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     Produit produit;
 }

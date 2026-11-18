@@ -1,7 +1,8 @@
 package tn.esprit.spring.produit.web.controller.dto;
 
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import org.springframework.web.bind.annotation.RequestBody;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.spring.produit.domain.Produit;
@@ -15,10 +16,9 @@ import java.util.List;
 public class ProduitController
 {
     ProduitServiceIMPL produitService;
-
     @PostMapping("/ajouterProduit")
     @Operation(description="Cette méthode ajoute un produit dans la BD")
-    public Produit ajouterProduit(@RequestBody Produit p)
+    public Produit ajouterProduit(@Valid @RequestBody Produit p)
     {
         return produitService.ajouterProduit(p);
     }

@@ -1,10 +1,12 @@
 package tn.esprit.spring.produit.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.validation.constraints.NotBlank;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
+import java.util.List;
 
 @Entity
 @Getter
@@ -12,20 +14,26 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Produit {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     @Column(nullable=false, unique=true, length=30)
-    private String nom;
+    @NotBlank private String nom;
     @Column(nullable=true, length=200)
     private String description;
     @Column(nullable=false)
-    private double prix;
+    @NotBlank private double prix;
     @Column(nullable=false)
-    private int stock;
-    @Column(nullable=false)
+    @NotBlank private int stock;
+    @Column(nullable=false, length=30)
+    @NotBlank
     private String categorie;
-
+    /*
+    @OneToMany(mappedBy="produit")
+    @JsonIgnore
+    List<Commande> commande;
+     */
 }
