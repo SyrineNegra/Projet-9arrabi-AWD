@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  reservation-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 9arrabi-reservation-service
+    ports:
+      - "8086:8086"
+    environment:
+      - SERVER_PORT=8086
+      - SPRING_PROFILES_ACTIVE=dev
+    restart: unless-stopped
