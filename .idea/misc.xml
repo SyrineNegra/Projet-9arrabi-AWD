@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/backend/microservices/evenement/pom.xml" />
         <option value="$PROJECT_DIR$/backend/microservices/promotion/pom.xml" />
         <option value="$PROJECT_DIR$/backend/microservices/reservation/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/eureka/pom.xml" />
       </list>
     </option>
   </component>
